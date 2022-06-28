@@ -44,7 +44,7 @@ export default {
       if (this.itemsPassed === 0) return;
       console.log(this.itemsProduct, item);
       if(this.cart.length > 1) {
-        this.cart.shift()
+        this.cart.shift() 
       }
     },
   },
