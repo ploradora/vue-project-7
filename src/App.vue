@@ -1,9 +1,9 @@
 <template>
   <div class="homepage">
-    <nav>
+    <div class="nav-app">
       <nav-links></nav-links>
       <the-cart :cart="cart" @cart-state="cartState"></the-cart>
-    </nav>
+    </div>
     <div class="product">
       <the-image-grid></the-image-grid>
       <div class="text">
@@ -89,7 +89,7 @@ export default {
     position: relative;
     width: 100%;
     margin: auto;
-    nav {
+    .nav-app {
       width: 100%;
       display: flex;
       align-items: center;
@@ -108,7 +108,7 @@ export default {
     }
     @include tablet {
       width: min(90%, 1100px);
-      nav {
+      .nav-app {
         align-items: flex-start;
         padding: 20px 20px 0 20px;
         border-bottom: 1px solid lighten(hsl(219, 9%, 45%), 45%);
