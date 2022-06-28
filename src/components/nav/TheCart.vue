@@ -37,6 +37,7 @@
           </div>
           <img
             @click="deleteItem(item.id)"
+            class="delete-icon"
             src="../../assets/images/icon-delete.svg"
             alt="icon delete"
           />
@@ -186,6 +187,9 @@ export default {
               color: #000;
             }
           }
+        }
+        .delete-icon {
+          cursor: pointer;
         }
       }
       button {
