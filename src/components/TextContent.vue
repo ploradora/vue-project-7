@@ -13,7 +13,7 @@
       <p id="current-price">${{ currentPrice }}</p>
       <p class="discount">{{ discount }}%</p>
     </div>
-    <p class="previous-price">${{ price }}</p>
+    <p class="previous-price">${{ price.toFixed(2) }}</p>
   </div>
   <div class="buttons">
     <div class="calc-buttons-container">
