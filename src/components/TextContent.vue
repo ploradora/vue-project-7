@@ -81,6 +81,7 @@ export default {
         this.item.items = this.items;
         this.item.currentPrice = this.currentPrice;
         this.$emit("itemsToCart", this.item);
+        this.items = 0;
       }
     },
   },
