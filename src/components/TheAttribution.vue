@@ -1,9 +1,9 @@
 <template>
   <div class="attribution">
     Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6" target="_blank"
       >Frontend Mentor</a
-    >. Coded by <a href="#">Plora Dora</a>.
+    >. Coded by <a href="#">Sebastian Suciu</a>.
   </div>
 </template>
 
